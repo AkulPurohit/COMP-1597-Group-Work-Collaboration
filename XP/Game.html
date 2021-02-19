@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>XP Technology</title>
+        <link rel="stylesheet" href="ism/css/my-slider.css"/>
+        <!--<link rel="stylesheet" href="EI.css"/>-->
+        <link rel="stylesheet" href="GamePage.css"/>
+
+        <script src="ism/js/ism-2.2.min.js"></script>
+        
+        <style>
+        
+             /*Centers Text*/
+    h1 {text-align: center;
+        font-family: cursive;
+    }
+    p {text-align: center;}
+    div {text-align: center;}
+
+        /*Puts Nav Bar Horizontal*/
+    ul {
+      list-style-type: none;
+      margin: 10;
+      padding: 10;
+      overflow: hidden;
+      background-color: #333;
+      font-family: fantasy;
+    }
+
+    li {
+      float: left;  /* keeps the menu in a line*/
+    }
+
+    li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 15px;
+
+    }
+
+        li a:hover, .dropdown:hover .dropbtn{
+            background-color: #111;
+            
+    }
+        
+        
+    /*Drop down menu*/
+        
+    li.dropdown {
+      display: inline-block;
+    }
+        
+        
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+        
+    /*Animations/Tranistions Test*/
+    div {
+      width: 100px;
+      height: 100px;
+      background: red;
+      transition: width 2s, height 4s;
+    }
+
+    div:hover {
+      width: 300px;
+      height: 300px;
+    }
+
+    
+    /*image Style*/
+img {
+  display: block;
+  margin-left: 5px;
+  margin-right: 25px;
+  padding: 20px;
+}
+    
+        
+        
+        
+        </style>
+        
+        
+        
+        
+    </head>
+    <body>
+        
+        <h1>XP</h1>
+        
+        <ul style="margin: 0;list-style-type: none;padding:10px ;overflow: hidden;">
+            <li style="float: left"><a href="index.html">Home</a></li>
+            
+            <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">About Us</a>
+    <div class="dropdown-content">
+      <a href="The%20Team.html">The Team</a>
+      <a href="XP%20History.html">XP's History</a>
+    <li style="float: right"><a href="InteractiveSmartphone.html">Interactive Phone</a></li>        
+
+                </div></li>
+        
+        <li class="dropdown">
+        <a href="Contact.html">Contact Us</a>
+            
+            
+            <img id="Pong" width="1750" height="auto"  
+    src="Pong.png" alt="PongPlaceHolder">
+        </ul>
+            
+        
+        <br>
+        <p>Game Page in progress </p>
+        
+        
+       
+        
+    </body>
+</html>

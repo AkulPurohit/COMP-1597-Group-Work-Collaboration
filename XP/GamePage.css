@@ -1,0 +1,34 @@
+* { /* reset margins and paddings on all elements */
+	margin:0;
+	padding:0;
+}
+
+body::before {
+		content:""; /* required for ::before */
+		position:fixed; /* don't scroll with page */
+		z-index:-100; /* place behind elements on page */
+		width:100%;
+		height:100%;
+		background-color:#14C2CC;
+		background-image: 
+		radial-gradient( circle farthest-side at top right, transparent, #0000FF), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #FF00A0);
+		animation:bg-change 5s infinite;
+}
+
+@keyframes bg-change {
+	0%, 100% {
+		filter:hue-rotate(0deg);
+	}
+	50% {
+		filter:hue-rotate(-35deg);
+	}
+    90% {
+		filter:hue-rotate(-75deg);
+	}
+}
+
+<button onclick="location.href='http://www.example.com'" type="button">
+         www.example.com</button>
+
+/*Navigation bar top*/
+
